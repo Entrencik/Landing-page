@@ -28,21 +28,29 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <a href="/" className="relative flex items-center space-x-2">
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
+                  <div>
+                    <span className="text-2xl  font-extrabold text-black">
+                      Entrencik
+                    </span>
+                    <p className="text-sm text-gray-500 hover:text-blue-600">
+                      Predict Your Future
+                    </p>
+                  </div>
                 </a>
 
                 <p className="mb-10 mt-5">
@@ -56,7 +64,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  entrencik@gmail.com
                 </a>
               </motion.div>
 
