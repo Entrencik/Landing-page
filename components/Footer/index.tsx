@@ -28,13 +28,14 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative flex items-center space-x-2">
+               <div className="grid place-items-center w-screen sm:place-content-start">
+               <a href="/" className="relative flex items-center space-x-2">
                   <Image
                     width={110}
                     height={80}
                     src="/images/logo/logo.png"
                     alt="Logo"
-                    className="dark:hidden"
+                    className=" dark:hidden"
                   />
                   <Image
                     width={110}
@@ -44,25 +45,19 @@ const Footer = () => {
                     className="hidden dark:block"
                   />
                   <div>
-                    <span className="text-2xl  font-extrabold text-black">
-                      Entrencik
-                    </span>
-                    <p className="text-sm text-gray-500 hover:text-blue-600">
-                      Predict Your Future
-                    </p>
+                    <span className="text-2xl font-extrabold text-black dark:text-white">Entrencik</span>
+                    <p className="text-sm text-gray-500 hover:text-blue-600">Predict Your Future</p>
                   </div>
                 </a>
+               </div>
+                <br/>
 
-                <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
+                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px] sm:ml-5">
                   contact
                 </p>
                 <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  className="text-itemtitle font-medium text-black dark:text-white sm:ml-5"
                 >
                   entrencik@gmail.com
                 </a>
