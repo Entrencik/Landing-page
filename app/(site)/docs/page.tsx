@@ -1,4 +1,3 @@
-import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,7 +16,6 @@ export default function DocsPage() {
             <div className="w-full px-4 lg:w-1/4">
               <div className="sticky top-[74px] rounded-lg border border-white p-4 shadow-solid-4  transition-all  dark:border-strokedark dark:bg-blacksection">
                 <ul className="space-y-2">
-                  <SidebarLink />
                 </ul>
               </div>
             </div>
