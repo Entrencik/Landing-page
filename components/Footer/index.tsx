@@ -28,7 +28,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-               <div className="grid place-items-center w-screen">
+               <div className="grid place-items-center w-screen sm:place-content-start">
                <a href="/" className="relative flex items-center space-x-2">
                   <Image
                     width={110}
