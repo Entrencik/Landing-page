@@ -1,11 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import About from "@/components/About";
-import FeaturesTab from "@/components/rank-predict/steps";
 import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
-import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
