@@ -43,14 +43,6 @@ const Footer = () => {
                     alt="Logo"
                     className="hidden dark:block"
                   />
-                  <div>
-                    <span className="text-2xl  font-extrabold text-black">
-                      Entrencik
-                    </span>
-                    <p className="text-sm text-gray-500 hover:text-blue-600">
-                      Predict Your Future
-                    </p>
-                  </div>
                 </a>
 
                 <p className="mb-10 mt-5">
